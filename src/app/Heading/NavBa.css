@@ -1,0 +1,24 @@
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures it stays on top of other elements */
+    background-color: #ffffff; /* Adjust as needed */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    transition: all 0.3s ease;
+    padding: 20px;
+    font-size: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header.small {
+    padding: 10px;
+    font-size: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
