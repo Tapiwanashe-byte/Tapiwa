@@ -6,6 +6,9 @@ interface IProps {
   title: string;
   description: string;
   action?: () => void;
+
+
+  
 }
 
 function ServiceCard({ iconUrl, title, description, action }: IProps) {

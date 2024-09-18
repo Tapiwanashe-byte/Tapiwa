@@ -8,6 +8,7 @@ import ContactUs from "@/components/sections/ContactUs";
 import Footer from "@/components/common/footer";
 import React from "react";
 import FooterSection from "@/components/sections/FooterSection";
+ 
 
 const Home = () => {
   return (
